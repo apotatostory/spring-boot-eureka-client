@@ -1,1 +1,6 @@
 rootProject.name = 'spring-boot-eureka-client'
+
+// import common library
+include ':spring-boot-common'
+
+project(':spring-boot-common').projectDir = new File('../spring-boot-common/');
